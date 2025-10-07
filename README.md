@@ -15,10 +15,10 @@ npm install
 npm run start
 
 ## Capturas
-`/images/chapter-2/`
+![Vista del proyecto](./images/chapter-2/captura.png)
 
 ## Commit asociado
 `Add chapter 2 content: Migrate to React and add components`
 
-**Autor:** Tu Nombre
-**Fecha:** $(date +%F)
+**Autor:** Pedro Serrudo Llanos
+**Fecha:** 06/10/25
