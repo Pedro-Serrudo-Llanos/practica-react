@@ -17,6 +17,11 @@ npm run dev
 pgsql
 Copiar código
 
+## Capturas
+
+![Vista del proyecto](./chapter-3-nextjs/assets/captura5.png)
+![Vista del proyecto](./chapter-3-nextjs/assets/captura6.png)
+
 ## Commit asociado
 `Add chapter 3 content: Migrate to Next.js and examples`
 
