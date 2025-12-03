@@ -18,7 +18,9 @@ Abrir index.html en el navegador (o usar un servidor simple): npx http-server . 
 
 # Capturas / GIFs
 
-(./chapter-1/assets/captura1.png)
+![Vista del proyecto](./chapter-1/assets/captura1.png)
+![Vista del proyecto](./chapter-1/assets/captura2.png)
+
 
 # Commit asociado
 
