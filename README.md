@@ -1,24 +1,28 @@
-# Chapter 3 - Migración a Next.js
+# Chapter 1 - JavaScript base
 
-**Rama:** chapter-3
+**Rama:** chapter-1
 
-## Objetivo
-Migrar a Next.js, enrutamiento y SSR/SSG.
+# Objetivo
 
-## Qué hice
-- Crear app Next.js
-- Migrar páginas en /pages
-- Explicar /getStaticProps y /getServerSideProps
+Explicar y mostrar la versión en JavaScript puro.
 
-## Comandos para correr
-npm install
-npm run dev
+# Qué hice
 
-pgsql
-Copiar código
+-Estructura HTML inicial
+-Funcionalidad JS básica (ej.: carrito, filtros)
+-Archivos: index.html, app.js, styles.css
 
-## Commit asociado
-`Add chapter 3 content: Migrate to Next.js and examples`
+# Comandos para correr
 
-**Autor:** 
-**Fecha:** 
+Abrir index.html en el navegador (o usar un servidor simple): npx http-server . -p 8080
+
+# Capturas / GIFs
+
+(./chapter-1/assets/captura1.png)
+
+# Commit asociado
+
+`Add chapter 1 content: Implement JS base and README`
+
+**Autor:** Pedro Serrudo Llanos
+**Fecha:** 06/10/25
