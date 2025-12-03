@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 export default function UsersPage() {
   const users = [
     { id: 1, name: "Juan Pérez", email: "juan@example.com", role: "Admin" },
@@ -33,13 +31,7 @@ export default function UsersPage() {
           {users.map((user) => (
             <tr key={user.id} style={{ borderBottom: "1px solid #ddd" }}>
               <td style={{ padding: "12px" }}>{user.id}</td>
-
-              <td style={{ padding: "12px" }}>
-                <Link href={`/users/${user.id}`} style={{ color: "blue", textDecoration: "underline" }}>
-                  {user.name}
-                </Link>
-              </td>
-
+              <td style={{ padding: "12px" }}>{user.name}</td>
               <td style={{ padding: "12px" }}>{user.email}</td>
               <td style={{ padding: "12px" }}>{user.role}</td>
             </tr>

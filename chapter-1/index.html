@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Productos - JS Base</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gray-50 font-inter">
+    <header class="header">
+        <h1 class="text-2xl font-bold">Tienda de Productos - JS Base</h1>
+    </header>
+
+    <div class="container">
+        <div class="filters-card">
+            <h2 class="text-xl font-semibold mb-3">Filtros</h2>
+            <div class="flex flex-col space-y-2">
+                <label for="category-filter" class="font-medium">Categoría:</label>
+                <select id="category-filter" class="select-input">
+                    <option value="all">Todas</option>
+                    <option value="electronics">Electrónica</option>
+                    <option value="books">Libros</option>
+                    <option value="clothing">Ropa</option>
+                </select>
+            </div>
+        </div>
+
+        <main class="main-content">
+            <h2 class="section-title">Lista de Productos</h2>
+            <div id="product-list" class="grid-container">
+            </div>
+        </main>
+
+        <aside class="cart-card">
+            <h2 class="section-title">🛒 Carrito de Compras</h2>
+            <ul id="cart-list" class="space-y-2 mb-4 text-sm">
+                <li class="text-gray-500 italic">El carrito está vacío.</li>
+            </ul>
+            <p class="font-bold text-lg">Total: $<span id="cart-total">0.00</span></p>
+        </aside>
+    </div>
+
+    <footer class="footer">
+        <p>Practica 3 - Fundamentos de React para Next.js (Chapter 1: JS Base)</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

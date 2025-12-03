@@ -1,24 +1,24 @@
-# Chapter 2 - Migración a React
+# Chapter 3 - Migración a Next.js
 
-**Rama:** chapter-2
+**Rama:** chapter-3
 
 ## Objetivo
-Migrar la app JS a React, componentización y estado.
+Migrar a Next.js, enrutamiento y SSR/SSG.
 
 ## Qué hice
-- Crear proyecto con Create React App / Vite
-- Convertir lógica a componentes (App, Header, ProductList)
-- Uso de useState para el carrito
+- Crear app Next.js
+- Migrar páginas en /pages
+- Explicar /getStaticProps y /getServerSideProps
 
 ## Comandos para correr
 npm install
-npm run start
+npm run dev
 
-## Capturas
-![Vista del proyecto](./images/chapter-2/captura.png)
+pgsql
+Copiar código
 
 ## Commit asociado
-`Add chapter 2 content: Migrate to React and add components`
+`Add chapter 3 content: Migrate to Next.js and examples`
 
-**Autor:** Pedro Serrudo Llanos
-**Fecha:** 06/10/25
+**Autor:** 
+**Fecha:** 
